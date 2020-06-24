@@ -19,5 +19,8 @@
   "devDependencies": {
     "electron": "^9.0.5",
     "electron-winstaller": "^4.0.0"
+  },
+  "dependencies": {
+    "usb-detection": "^4.9.0"
   }
 }
