@@ -1,1 +1,9 @@
-"# device-updater-client" 
+# Installation
+
+````
+npm install
+````
+
+````
+npm start
+````
