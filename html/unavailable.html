@@ -5,26 +5,42 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Flexineb Update Client</title>
   </head>
   <body>
     <div>
-      <p id="flexineb"><span id="span1">Flexi</span><span id="span2">neb</span> Update Client</p>
+      <p id="flexineb">Update </p>
         <hr>
     </div>
 
-    <div class="div1">
-      <img id="gif" src="images/usb.gif" alt="usb" height="200" width=300/>
-      <p>Your OS is: <span id="os-name"></span></p>
-      <script src="./scripts/platform.js"></script>
-      <script src="./scripts/detectOS.js"></script>
-      <a href="instructions.html"><p id="trouble">Having trouble?</p></a>
+    <div class="container">
+      <p id="uptodate">You are fully up to date with the newest firmware</p>
+
+      <div class="ctn">
+        <button class="btn" disabled>Current V2.0.0</button>
+      </div>
+
+      <div class="notes">
+        <div>
+            <p id="modified">Date Updated - 05/06/20</p>
+        </div>
+        <div>
+            <dd>- Bug fixes.</dd>
+            <dd>- Battery Life.</dd>
+            <dd>- Big causing crash fixed.</dd>
+            <dd>- Power Levels changes.</dd>
+            <dd>- Low Battery Changes.</dd>
+
+        </div>
     </div>
+    </div>
+
 
     <footer>
       <div class="footer">
-        <p id="footerText"><span id="span3"><a href="help.html">Help</span></a>
+        <p id="footerText"><span id="span3"><a href="index.html">Home</span></a>
+        <span id="span4"><a href="help.html">Help</span></a>
         <span id="span4"><a href="update.html">Update</span></a>
         <span id="span4"><a href="contact.html">Contact</span></a>
         <span id="span4"><a href="instructions.html">Instructions</span></a>
@@ -34,6 +50,6 @@
  
 
     <!-- You can also require other files to run in this process -->
-    <script src="renderer.js"></script>
+    <script src="../renderer.js"></script>
   </body>
 </html>
