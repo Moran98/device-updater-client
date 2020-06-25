@@ -8,26 +8,15 @@
     <link rel="stylesheet" href="../styles/style.css">
     <title>Flexineb Update Client</title>
   </head>
-  <body>
-    <p id="flexineb">Release Notes</p>
+  <body onload="myFunction()" style="margin:0;">
+    <p id="flexineb">Update</p>
     <hr>
 
-    <div class="updateDiv">
-        <div>
-            <div>
-                <button class="btn2"><a href="updating.html">Update to Version 2.0.0</button></a>
-                <p id="modified">Date Modified - 24/06/20</p>
-            </div>
-            <br>
-            <div>
-                <dd>- Bug fixes.</dd>
-                <dd>- Battery Life.</dd>
-                <dd>- Big causing crash fixed.</dd>
-                <dd>- Power Levels changes.</dd>
-                <dd>- Low Battery Changes.</dd>
+    <div class="updating">
+        <p id="flexineb">Processing Update...</p>
+        <div id="loader"></div>
 
-            </div>
-        </div>
+
     </div>
     <br>
     <footer>
@@ -42,6 +31,7 @@
       </footer>
 
     <!-- You can also require other files to run in this process -->
-    <script src="../renderer.js"></script>
+    <script src="../renderer.js">
+    </script>
   </body>
 </html>
